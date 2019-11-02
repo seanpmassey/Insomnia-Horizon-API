@@ -1,0 +1,5 @@
+The Horizon 7.10 REST API is an Insomnia workspace that contains the Horizon REST API commands and variables to simplify using the API. Horizon administrators can use this workspace to test the development of scripts against the new API.
+
+To consume this workspace, download the JSON file and import it into Insomnia.  Once you have imported the workspace, edit the Horizon Environmental Variables to include details for your environment including the credentials for connecting and the connection server URL.  Once you have these entered, you can use the Horizon REST Login API to get the access token and refresh token that will be required by all of the other REST API calls.  The tokens will be saved as a variable and inserted into any other calls that you make.
+
+To learn more about the Horizon 7.10 REST API methods and models, please see the documentation on the VMware Code site at https://code.vmware.com/apis/697/view-rest-api
